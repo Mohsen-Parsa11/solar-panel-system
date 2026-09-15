@@ -1,0 +1,108 @@
+{
+  "name": "next-js-boilerplate",
+  "author": "Ixartz (https://github.com/ixartz)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:spotlight": "npx @spotlightjs/spotlight",
+    "dev:next": "next dev",
+    "dev": "run-p \"dev:*\"",
+    "build:next": "next build --webpack",
+    "build-local": "npm run build:next",
+    "build": "run-s build:next",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "db:seed": "prisma db seed",
+    "build-stats": "cross-env ANALYZE=true npm run build",
+    "clean": "rimraf .next out coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "check:types": "tsc --noEmit --pretty",
+    "check:deps": "knip",
+    "check:i18n": "i18n-check -l src/locales -s en -u src -f next-intl",
+    "commit": "commit",
+    "postinstall": "lefthook install"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@arcjet/next": "^1.4.0",
+    "@commitlint/types": "^20.5.0",
+    "@hookform/resolvers": "^5.4.0",
+    "@prisma/client": "^6.19.3",
+    "@sentry/nextjs": "^10.54.0",
+    "better-auth": "^1.6.11",
+    "clsx": "^2.1.1",
+    "countries-list": "^3.3.0",
+    "js-cookie": "^3.0.8",
+    "lucide-react": "^1.17.0",
+    "mongodb": "^7.2.0",
+    "next": "^16.2.6",
+    "next-intl": "^4.13.0",
+    "nodemailer": "^8.0.9",
+    "prisma": "^6.19.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-hook-form": "^7.76.1",
+    "react-loading-skeleton": "^3.5.0",
+    "sonner": "^2.0.7",
+    "swiper": "^12.2.0",
+    "tailwind-merge": "^3.6.0",
+    "vite": "^7.3.3",
+    "yup": "^1.7.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.7.3",
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
+    "@commitlint/prompt-cli": "^20.5.3",
+    "@eslint-react/eslint-plugin": "^2.13.0",
+    "@next/bundle-analyzer": "^16.2.6",
+    "@next/eslint-plugin-next": "^16.2.6",
+    "@spotlightjs/spotlight": "^4.11.4",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^24.12.4",
+    "@types/nodemailer": "^8.0.0",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "conventional-changelog-conventionalcommits": "^9.3.1",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-format": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "eslint-plugin-tailwindcss": "^4.0.0-beta.0",
+    "knip": "^5.88.1",
+    "lefthook": "^2.1.8",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.15",
+    "postcss-load-config": "^6.0.1",
+    "rimraf": "^6.1.3",
+    "semantic-release": "^25.0.3",
+    "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.3",
+    "typescript": "^5.9.3"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommits"
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}

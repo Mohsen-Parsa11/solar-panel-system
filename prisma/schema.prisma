@@ -1,0 +1,156 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model user {
+  id            String    @id @default(cuid()) @map("_id")
+  name          String
+  email         String    @unique
+  emailVerified Boolean   @default(false)
+  image         String?
+  role          String    @default("admin")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  accounts      account[]
+  sessions      session[]
+}
+
+model session {
+  id        String   @id @default(cuid()) @map("_id")
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      user     @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+}
+
+model account {
+  id                    String    @id @default(cuid()) @map("_id")
+  accountId             String
+  providerId            String
+  userId                String
+  user                  user      @relation(fields: [userId], references: [id])
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@unique([providerId, accountId])
+  @@index([userId])
+}
+
+model verification {
+  id         String   @id @default(cuid()) @map("_id")
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+}
+
+model Product {
+  id                String           @id @default(cuid()) @map("_id")
+  name              String
+  nameFarsi          String?
+  namePashto        String?
+  slug              String           @unique
+  sku               String           @unique
+  category          ProductCategory
+  brand             String
+  brandFarsi         String?
+  brandPashto       String?
+  status            ProductStatus    @default(ACTIVE)
+  imageUrl          String?
+  description       String?
+  descriptionFarsi   String?
+  descriptionPashto String?
+  powerW            Int?
+  type              String?
+  efficiency        String?
+  warranty          String?
+  features          Json?
+  orderItems        OrderItem[]
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  @@index([category])
+  @@index([brand])
+  @@index([status])
+}
+
+
+model Order {
+  id            String        @id @default(cuid()) @map("_id")
+  orderNumber   String        @unique
+  customerName  String
+  customerPhone String
+  customerEmail String
+  cityLocation  String
+  message       String?
+  payment       PaymentMethod @default(COD)
+  status        OrderStatus   @default(PENDING)
+  privacyAgreed Boolean       @default(false)
+  items         OrderItem[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@index([customerName])
+  @@index([status])
+  @@index([payment])
+  @@index([createdAt])
+}
+
+model OrderItem {
+  id        String   @id @default(cuid()) @map("_id")
+  quantity  Int      @default(1)
+  orderId   String
+  order     Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product  @relation(fields: [productId], references: [id])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([orderId])
+  @@index([productId])
+}
+
+enum ProductCategory {
+  SOLAR_PANEL
+  BATTERY
+  INVERTER
+  ACCESSORY
+}
+
+enum ProductStatus {
+  ACTIVE
+  DRAFT
+  ARCHIVED
+}
+
+enum OrderStatus {
+  PENDING
+  COMPLETED
+  CANCELLED
+}
+
+enum PaymentMethod {
+  PAID
+  COD
+}

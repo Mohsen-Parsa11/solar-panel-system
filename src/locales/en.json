@@ -1,0 +1,692 @@
+{
+  "language": "Language",
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "requestProduct": "Request Product",
+    "cart": "Open Cart"
+  },
+  "signOut": {
+    "signOutSuccess": "Signed out successfully",
+    "signOutError": "Sign out failed!",
+    "logout": "Log Out"
+  },
+  "contact": {
+    "hero": {
+      "subtitle": "Contact Us",
+      "titleLight": "Get in Touch",
+      "titleBold": "With Us",
+      "description": "Get in touch with our team to learn more about Hewadwal Solar solutions and how they can support your home, business, or project."
+    },
+    "getInTouch": {
+      "title": "Get in Touch",
+      "address": "Kabul, Afghanistan, Charahi Dahan Baagh, Azim Tower, 6th Floor, Office No. 16 & 17",
+      "formTitle": "Send us a message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "country": "Country",
+      "company": "Company",
+      "phone": "Phone Number",
+      "message": "Message",
+      "privacy": "You agree to our friendly",
+      "privacyPolicy": "privacy policy",
+      "submit": "Submit Request",
+      "status": {
+        "sending": "Sending...",
+        "success": "Your request was sent successfully.",
+        "error": "Something went wrong. Please try again.",
+        "rateLimited": "Please wait before sending another request."
+      },
+      "placeholders": {
+        "firstName": "Enter your first name",
+        "lastName": "Enter your last name",
+        "email": "you@company.com",
+        "country": "Select your country",
+        "company": "Your company name",
+        "phone": "+1 (555) 123-4567",
+        "message": "Tell us more about your needs..."
+      },
+      "errors": {
+        "firstName": "First name is required",
+        "lastName": "Last name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email address",
+        "country": "Country is required",
+        "company": "Company name is required",
+        "phone": "Phone number is required",
+        "message": "Message is required",
+        "privacy": "You must agree to the privacy policy"
+      }
+    },
+    "testimonials": {
+      "subTitle": "Client Feedback",
+      "mainTitle": "What Our Clients Say",
+      "description": "Hear from businesses and homeowners who have successfully transformed their energy supply with Hewadwal Solar Ltd.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Reliable products and services",
+          "quote": "The team helped us choose the right solar setup and supported us through delivery and installation.",
+          "name": "Naser Ahmad",
+          "avatar": "/users/mahdi.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Professional solar support",
+          "quote": "We received clear guidance, dependable products, and quick answers whenever our team needed help.",
+          "name": "Abdur Rahman",
+          "avatar": "/users/mujtaba.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "A trusted energy partner",
+          "quote": "Hewadwal Solar made it easier to upgrade our power system with confidence and practical advice.",
+          "name": "Navid",
+          "avatar": "/users/sajad.jpg"
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Clean Energy For A Better Future",
+      "titleLight": "Request Premium",
+      "titleBold": "Solar Products",
+      "description": "We provide high-quality solar products and professional solutions for homes, businesses, and industries.",
+      "primaryBtnText": "Explore Products",
+      "secondaryBtnText": "Learn More",
+      "office": "Offices",
+      "yearsExperience": "Years Experience",
+      "professionalsTrustUs": "Professionals Trust Us"
+    },
+    "premiumProducts": {
+      "sectionLabel": "OUR PRODUCTS",
+      "title": "Premium Solar Products",
+      "description": "High-quality solar products with advanced technology for maximum performance and durability.",
+      "viewAll": "View All Products",
+      "relatedTitle": "You May Also Like",
+      "noProductsTitle": "No Premium Products Available",
+      "noProductsDescription": "There are currently no premium products available. Please check back later for new arrivals."
+    },
+    "whyChooseUs": {
+      "title": "What You Can Expect",
+      "description": "Power your future with solar",
+      "features": [
+        { "id": 1, "title": "Eco-Friendly", "description": "Clean energy for a green future" },
+        { "id": 2, "title": "High Quality", "description": "Premium quality products." },
+        { "id": 3, "title": "Cost-Effective", "description": "Save money with solar energy" },
+        { "id": 4, "title": "Support", "description": "Always-available monitoring and assistance." }
+      ]
+    },
+    "howItWorks": {
+      "sectionLabel": "HOW IT WORKS",
+      "title": "Simple Steps To Get Started",
+      "description": "Browse our products, place your order, and let our team handle the delivery and installation with ease.",
+      "steps": [
+        { "num": "01", "title": "Explore Our Solar Range", "desc": "Browse panels, batteries, inverters, and accessories tailored for sustainable energy" },
+        { "num": "02", "title": "Send Request", "desc": "Fill out the form and send us your request." },
+        { "num": "03", "title": "Our Team Contacts You", "desc": "Our experts will contact you with the best solution." },
+        { "num": "04", "title": "Delivery & Installation", "desc": "We deliver your solar products on time and provide expert installation for optimal performance." }
+      ]
+    },
+    "testimonial": {
+      "subTitle": "CLIENT FEEDBACK",
+      "mainTitle": "What They Say After Using Our Product",
+      "description": "From product selection to installation, we make the solar process simple, fast, and reliable for every customer.",
+      "items": [
+        { "id": 1, "title": "Reliable products and service", "quote": "The team helped us choose the right solar setup and supported us through delivery and installation.", "name": "Mohammad", "avatar": "/users/mahdi.jpg" },
+        { "id": 2, "title": "Professional solar support", "quote": "We received clear guidance, dependable products, and quick answers whenever our team needed help.", "name": "Abdur Rahman", "avatar": "/users/mujtaba.jpeg" },
+        { "id": 3, "title": "A trusted energy partner", "quote": "Hewadwal Solar made it easier to upgrade our power system with confidence and practical advice.", "name": "Navid", "avatar": "/users/sajad.jpg" }
+      ]
+    },
+    "readyToSwitch": {
+      "title": "Ready To Switch To Solar Energy?",
+      "description": "Our solar solutions help homes and businesses reduce electricity costs, gain energy independence, and build a more sustainable future.",
+      "button": "Request Product"
+    },
+    "office": {
+      "sectionLabel": "OUR OFFICE",
+      "title": "Our Offices Worldwide",
+      "description": "We are proud to operate in multiple locations to provide faster support, reliable products, and professional solar solutions."
+    },
+    "cartModal": {
+      "emptyCart": "Your cart is empty.",
+      "emptyDescription": "Start shopping to add items to your cart.",
+      "emptyCTA": "Start Shopping",
+      "quantity": "Quantity",
+      "panel": "Panel",
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "email": "Email",
+      "cityLocation": "City / Location",
+      "message": "Message",
+      "privacy": "You agree to our friendly privacy policy",
+      "privacyPolicy": "privacy policy",
+      "submit": "Submit Request",
+      "fullNamePlaceholder": "Enter your full name",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "emailPlaceholder": "you@company.com",
+      "cityPlaceholder": "Enter your city or location",
+      "messagePlaceholder": "Tell us more about your needs...",
+      "fullNameError": "Full name is required",
+      "phoneError": "Phone number is required",
+      "emailError": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "cityError": "City is required",
+      "privacyError": "You must agree to the privacy policy",
+      "submitButton": "Submit Request",
+      "submitting": "Submitting...",
+      "successMessage": "Your request was sent successfully.",
+      "errorMessage": "Something went wrong. Please try again.",
+      "alreadyInCart": "This product has already been added to cart!",
+      "addedSuccess": "Product successfully added to cart."
+    },
+    "productCard": {
+      "addToCart": "Add to Cart",
+      "alreadyInCart": "This product has already been added to cart!",
+      "addedSuccess": "Product successfully added to cart."
+    }
+  },
+  "about-us": {
+    "hero": {
+      "subtitle": "Clean Energy For A Better Future",
+      "titleLight": "Who We Are & Our Commitment",
+      "titleBold": "to Clean Energy",
+      "description": "We provide reliable solar solutions for homes, businesses, and industries with modern technology and professional support.",
+      "office": "Offices",
+      "yearsExperience": "Years Experience",
+      "professionalsTrustUs": "Professionals Trust Us"
+    },
+    "whoWeAre": {
+      "subTitle": "WHO WE ARE",
+      "title": "Engineered For Excellence, Committed To Earth",
+      "description": "Hewadwal is an Afghan solar energy company dedicated to providing efficient and sustainable renewable energy solutions. Since its foundation, the company has helped customers achieve greater energy independence through high-quality solar systems, battery solutions, and professional energy services. With a commitment to quality, innovation, and customer satisfaction, Hewadwal continues to support Afghanistan's transition toward a cleaner and more sustainable energy future.",
+      "features": [
+        {
+          "title": "Quality Products",
+          "description": "Certified and tested for maximum performance."
+        },
+        {
+          "title": "Expert Team",
+          "description": "Experienced engineers and industry professionals."
+        },
+        {
+          "title": "Trusted Worldwide",
+          "description": "Serving customers across multiple regions."
+        }
+      ]
+    },
+    "ourJourney": {
+      "subTitle": "OUR STORY",
+      "title": "The Beginning Of Our Journey",
+      "description": "Hewadwal began its journey in 2013 by supplying solar energy products to meet the growing demand for reliable electricity solutions in Afghanistan. In its early years, the company focused on providing solar panels, batteries, and power equipment for residential customers. As the demand for renewable energy increased, Hewadwal expanded its services to include commercial and industrial solar projects, helping businesses reduce energy costs and improve power reliability. Over the years, the company has successfully delivered numerous solar solutions, strengthened its technical expertise, and built lasting relationships with customers. Today, Hewadwal continues to grow by providing innovative and sustainable energy solutions across Afghanistan.",
+      "experienceBadge": "YEARS OF IMPACT",
+      "stats": [
+        { "value": "2013", "label": "FOUNDATION" },
+        { "value": "2014", "label": "EXPANSION" },
+        { "value": "2020", "label": "INNOVATION" },
+        { "value": "2022", "label": "GLOBAL" }
+      ]
+    },
+    "missionVision": {
+      "missionTitle": "Our Mission",
+      "missionDesc": "To deliver innovative, reliable, and sustainable solar solutions that create long-term value for our customers.",
+      "visionTitle": "Our Vision",
+      "visionDesc": "To create a future where clean energy powers every home and business."
+    },
+    "realDifference": {
+      "subTitle": "OUR IMPACT",
+      "title": "Making A Real Difference",
+      "stats": [
+        { "value": "12K+", "label": "Solar Systems Installed" },
+        { "value": "8.5MW+", "label": "Total Clean Energy Generated" },
+        { "value": "9K+", "label": "Homes Powered" },
+        { "value": "20+", "label": "Countries Served" }
+      ]
+    },
+    "futureSolutions": {
+      "subTitle": "OUR OBJECTIVES",
+      "title": "Building Solutions For The Future",
+      "features": [
+        { "id": 1, "title": "Expand Renewable Energy Access", "description": "Make clean energy accessible to more communities." },
+        { "id": 2, "title": "Reduce Energy Costs", "description": "Help customers save money with efficient solar solutions." },
+        { "id": 3, "title": "Protect The Environment", "description": "Reduce carbon emissions and create a cleaner planet." },
+        { "id": 4, "title": "Support Sustainable Business Growth", "description": "Empower businesses with reliable and sustainable energy." }
+      ]
+    },
+    "awards": {
+      "subTitle": "EXCELLENCE DEFINED",
+      "title": "Awards & Recognition",
+      "description": "A legacy of innovation, strategic precision, and industry-shaping impact. Explore our journey of global recognition across the primary sectors of digital transformation and operational excellence.",
+      "items": [
+        { "title": "Renewable Energy Excellence Award", "desc": "Recognized for outstanding contributions to the development and implementation of solar energy solutions." },
+        { "title": "500+ Solar Systems Installed", "desc": "Successfully completed more than 500 residential, commercial, and industrial solar installations." },
+        { "title": "Customer Trust & Satisfaction Recognition", "desc": "Awarded for maintaining exceptional customer satisfaction and providing reliable after-sales support." },
+        { "title": "Green Energy Innovation Achievement", "desc": "Recognized for adopting advanced solar technologies and delivering efficient renewable energy systems." },
+        { "title": "Solar Industry Growth Milestone", "desc": "Expanded operations and successfully delivered large-scale solar projects across multiple regions." }
+      ]
+    },
+    "team": {
+      "subTitle": "Our Team",
+      "title": "Meet Our Expert Team",
+      "description": "Our dedicated team of professionals is committed to bringing you the best solar solutions.",
+      "members": [
+        { "name": "Mohammad Nasim", "role": "President of Hewadwal Solar Ltd" },
+        { "name": "Mohammad Dawood", "role": "China Office Representative" },
+        { "name": "Haji Mohammad Qasim Hewadwal", "role": "Herat Representative" },
+        { "name": "Haji Zialhaq Melpal", "role": "Dubai Representative" },
+        { "name": "Mohammad Ishaq Alizi", "role": "Kandahar Representative" },
+        { "name": "Abdul Halim Noorzai", "role": "Farah Representative" }
+      ]
+    }
+  },
+  "offices": {
+    "sectionLabel": "OUR OFFICE",
+    "title": "Our Offices Worldwide",
+    "description": "We are proud to operate in multiple locations to provide faster support, reliable products, and professional solar solutions.",
+    "items": [
+      {
+        "id": 1,
+        "city": "Kabul Office",
+        "type": "Main Office",
+        "details": "Charahi Dahan Baagh, Azim Tower, 6th Floor, Office No. 16 & 17",
+        "location": "Kabul, Afghanistan",
+        "phone": "+93 799 377 070 - +93 747 702 507",
+        "image": "/assets/images/kabul-img.jpg"
+      },
+      {
+        "id": 2,
+        "city": "China Office",
+        "type": "Sub-Office",
+        "details": "Room 1708, Jinmao Building, No. 699 Chouzhou North Road, Yiwu City, Zhejiang Province, China",
+        "location": "China",
+        "phone": "+86 138 6896 8188",
+        "image": "/assets/images/China-img.jpg"
+      },
+      {
+        "id": 3,
+        "city": "Dubai Office",
+        "type": "Sub-Office",
+        "details": "Baniyas Square, Near The Habib Bank Zurich, Side Of Latifa Building, Behind The West Zone Supermarket, Rasheed Al Yateem Building, 1st Floor, Office No. 108",
+        "location": "Dubai, UAE",
+        "phone": "+971 50 000 000",
+        "image": "/assets/images/Dubai-img.jpg"
+      },
+      {
+        "id": 4,
+        "city": "Herat Office",
+        "type": "Sub-Office",
+        "details": "Shams Brothers Market, 3rd Floor, Office No. 105, Chawk Shahr Naw",
+        "location": "Herat, Afghanistan",
+        "phone": "+970 863 1065 - +93 744 451 010",
+        "image": "/assets/images/herat-img.jpg"
+      },
+      {
+        "id": 5,
+        "city": "Kandahar Office",
+        "type": "Main Office",
+        "details": "Bypass Road, Kandahar, Afghanistan",
+        "location": "Kandahar, Afghanistan",
+        "phone": "+93 729 250 0000 - +93 700 065 005",
+        "image": "/assets/images/khandhar-img.jpg"
+      },
+      {
+        "id": 6,
+        "city": "Farah Office",
+        "type": "Sub-Office",
+        "details": "Opposite To Sarafi Market, Farah, Afghanistan",
+        "location": "Farah, Afghanistan",
+        "phone": "+93 705 708 067",
+        "image": "/assets/images/farah-img.jpg"
+      }
+    ]
+  },
+  "seo": {
+    "layout": {
+      "title": "Dawood Hewadwal - Solar Energy Solutions in Afghanistan",
+      "description": "Explore Dawood Hewadwal's comprehensive solar energy solutions across Afghanistan.",
+      "keywords": "[\"Dawood Hewadwal\", \"Solar Energy\", \"Afghanistan\", \"Renewable Energy\", \"Sustainable Solutions\", \"Green Technology\", \"Energy Solutions\", \"Solar Panels\", \"Solar Installation\", \"Renewable Resources\"]"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Dawood Hewadwal is a leading provider of solar energy solutions in Afghanistan, committed to delivering innovative and sustainable energy products and services to meet the growing demand for clean energy."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "description": "Get in touch with Dawood Hewadwal for questions, feedback, partnerships, or support. We are here to help and will respond to your message as soon as possible."
+    },
+    "products": {
+      "title": "Explore",
+      "description": "Explore Dawood Hewadwal's solar energy products and solutions across Afghanistan."
+    }
+  },
+  "shell": {
+    "products": "Products",
+    "orders": "Orders",
+    "logout": "Log Out",
+    "role": "Admin",
+    "language": "Language"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Manage all your solar energy products in one place.",
+    "add": "Add Product",
+    "search": "Search products...",
+    "allCategories": "All Categories",
+    "allBrands": "All Brands",
+    "allStatus": "All Status",
+    "product": "Product",
+    "category": "Category",
+    "reset": "Reset",
+    "brand": "Brand",
+    "status": "Status",
+    "actions": "Actions",
+    "view": "View",
+    "sku": "SKU",
+    "units": "Units",
+    "noResults": "No products found.",
+    "deleteTitle": "Delete Product",
+    "deleteDescription": "Are you sure you want to delete",
+    "cancel": "Cancel",
+    "confirm": "Delete",
+    "deleting": "Deleting...",
+    "successMessage": "Product deleted successfully."
+  },
+  "login": {
+    "language": "Language",
+    "welcome": "Welcome Back!",
+    "loginSubtitle": "Login to your account to continue",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "hidePassword": "Hide password",
+    "showPassword": "Show password",
+    "forgotPassword": "Forgot Password?",
+    "invalidLogin": "Invalid email or password.",
+    "loggingIn": "Logging in...",
+    "login": "Login",
+    "back": "Back",
+    "forgotTitle": "Forgot Your Password?",
+    "forgotSubtitle": "Enter your email and we will send you a reset link.",
+    "resetSendError": "Unable to send reset link.",
+    "resetSent": "If this email exists, a reset link has been sent.",
+    "sending": "Sending...",
+    "continue": "Continue",
+    "resetTitle": "Reset Password",
+    "resetSubtitle": "Securely reset your account password and regain access to your account.",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "resetError": "Unable to reset password.",
+    "missingToken": "This reset link is missing a token.",
+    "resetting": "Resetting...",
+    "passwordMismatch": "Passwords do not match.",
+    "resetButton": "Reset Password"
+  },
+  "orders": {
+    "search": "Search by order ID, customer...",
+    "allStatus": "All status",
+    "allPayment": "All payment",
+    "datePlaceholder": "mm/dd/yyyy",
+    "to": "to",
+    "orderId": "Order ID",
+    "customer": "Customer",
+    "date": "Date",
+    "total": "Total",
+    "payment": "Payment",
+    "status": "Status",
+    "actions": "Actions",
+    "viewDetails": "View Details",
+    "closeDetails": "Close order details",
+    "remove": "Remove",
+    "quantity": "Quantity",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "cityLocation": "City / Location",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your needs and how we can help you...",
+    "privacy": "You agree to our friendly privacy policy.",
+    "submit": "Submit Request",
+    "noResults": "No orders found.",
+    "reset": "Reset",
+    "drawer": {
+      "title": "Order Details",
+      "close": "Close",
+      "requestDate": "Request Date",
+      "contactInformation": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "orderItems": "Order Items",
+      "sku": "SKU",
+      "quantity": "Quantity",
+      "approveOrder": "Approve Order",
+      "cancelOrder": "Cancel Order",
+      "cityLocation": "City / Location",
+      "message": "Message",
+      "noMessage": "No message provided",
+      "payment": "Payment",
+      "status": {
+        "pending": "Pending",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      }
+    }
+  },
+  "productForm": {
+    "title": "Create Product",
+    "subtitle": "Add a catalog-ready solar product with the details customers need for comparison, quotation, and ordering.",
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "productInfo": "Product Information",
+    "productName": "Product Name",
+    "productNamePlaceholder": "e.g. Longi Hi-MO X6 580W Solar Panel",
+    "productNameHint": "Use the public product name exactly as it should appear in the catalog.",
+    "productNameFarsi": "Product Name (Farsi)",
+    "productNamePlaceholderFarsi": "e.g. Longi Hi-MO X6 580W Solar Panel",
+    "productNamePashto": "Product Name (Pashto)",
+    "productNamePlaceholderPashto": "e.g. Longi Hi-MO X6 580W Solar Panel",
+    "productType": "Product Type",
+    "solarPanel": "Solar Panel",
+    "battery": "Battery",
+    "inverter": "Inverter",
+    "accessory": "Accessory",
+    "sku": "SKU",
+    "skuPlaceholder": "e.g. SP-LONGI-580W-MONO",
+    "brand": "Brand",
+    "brandPlaceholder": "e.g. Longi, Jinko, Growatt, Felicity",
+    "brandHint": "Type any brand name. New brands do not need to be created separately.",
+    "brandFarsi": "Brand (Farsi)",
+    "brandPlaceholderFarsi": "e.g. Longi, Jinko, Growatt, Felicity",
+    "brandPashto": "Brand (Pashto)",
+    "brandPlaceholderPashto": "e.g. Longi, Jinko, Growatt, Felicity",
+    "productImage": "Product Image",
+    "upload": "Upload Product Image",
+    "dragDrop": "Drag & drop or",
+    "browse": "browse",
+    "imageHint": "PNG, JPG, WEBP - MAX 2MB",
+    "description": "Description",
+    "descriptionDefault": "High-efficiency solar product designed for reliable daily energy production, stable system performance, and long-term durability in residential, commercial, and industrial installations.",
+    "descriptionHint": "Write benefits, ideal use cases, and installation context in customer-friendly language.",
+    "descriptionFarsi": "Description (Farsi)",
+    "descriptionDefaultFarsi": "High-efficiency solar product designed for reliable daily energy production, stable system performance, and long-term durability in residential, commercial, and industrial installations.",
+    "descriptionPashto": "Description (Pashto)",
+    "descriptionDefaultPashto": "High-efficiency solar product designed for reliable daily energy production, stable system performance, and long-term durability in residential, commercial, and industrial installations.",
+    "productFeatures": "Product Features",
+    "parameter": "Parameter",
+    "value": "Value",
+    "addFeature": "Add feature",
+    "removeFeature": "Remove feature",
+    "successMessage": "Product saved successfully!",
+    "imageUrl": "Image URL",
+    "noImage": "No image available.",
+    "noFeatures": "No features added yet.",
+    "noDescription": "No product description has been added yet.",
+    "editTitle": "Edit Product",
+    "editSubtitle": "Update existing product details, pricing, and media from the dashboard.",
+    "update": "Update Product",
+    "updating": "Updating...",
+    "creating": "Creating...",
+    "imageFileSelected": "Selected image",
+    "backToProducts": "Back to products",
+    "quickInfo": "Quick Specifications",
+    "ratedPower": "Rated Power",
+    "ratedPowerPlaceholder": "580 W",
+    "technology": "Technology",
+    "technologyPlaceholder": "Mono TOPCon",
+    "efficiency": "Efficiency",
+    "efficiencyPlaceholder": "22.5 %",
+    "warranty": "Warranty",
+    "warrantyPlaceholder": "12 years product",
+    "quickInfoHint": "Keep these values short. They appear in product cards and help customers scan important specifications quickly.",
+    "customerValue": "Customer Value",
+    "action": "Action",
+    "cancel": "Cancel",
+    "create": "Create Product",
+    "uploadingImage": "uploading image..."
+  },
+  "pagination": {
+    "showing": "Showing {from} to {to} of {total} results"
+  },
+  "schema": {
+    "nameRequired": "Product name is required",
+    "skuRequired": "SKU is required",
+    "categoryRequired": "Category is required",
+    "invalidCategory": "Invalid category",
+    "brandRequired": "Brand is required",
+    "descriptionRequired": "Description is required",
+    "invalidImageUrl": "Image URL must be valid"
+  },
+  "footer": {
+    "description": "We provide high-quality solar products and reliable solar solutions for a better and sustainable future.",
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": {
+      "0": { "label": "Home", "href": "/" },
+      "1": { "label": "Products", "href": "/products" },
+      "2": { "label": "About Us", "href": "/about-us" },
+      "3": { "label": "Contact Us", "href": "/contact" },
+      "4": { "label": "Privacy Policy", "href": "/privacy-policy" }
+    },
+    "contactTitle": "Contact",
+    "contact": {
+      "phone": "+93 799 377 070 - +93 747 702 507",
+      "email": "info@hewadwalsolarltd.com"
+    },
+    "copyright": "Dawood Hewadwal. All rights reserved."
+  },
+  "product": {
+    "heroSubtitle": "Clean Energy For A Better Future",
+    "heroTitleLight": "Request your",
+    "heroTitleBold": "solar products",
+    "heroDescription": "Get a personalized quote for premium solar products tailored to your needs, fast, easy and reliable.",
+    "filterTitle": "Filter Products",
+    "filterReset": "Reset",
+    "filterSearch": "Search",
+    "filterSearchPlaceholder": "Search products...",
+    "filterCategory": "Category",
+    "catSolarPanels": "Solar Panels",
+    "catSolarInverters": "Solar Inverters",
+    "catSolarBatteries": "Solar Batteries",
+    "catAccessories": "Accessories",
+    "filterCapacity": "Capacity (Watt)",
+    "showing": "Showing",
+    "of": "Of",
+    "packages": "Packages",
+    "filtersBtn": "Filters",
+    "sortBy": "Sort by",
+    "sortMostPopular": "Most Popular",
+    "sortNameAZ": "Name: A to Z",
+    "mobileFiltersTitle": "Filters",
+    "mobileFiltersClose": "Close",
+    "noProductsTitle": "No products found",
+    "noProductsDescription": "We couldn't find any products matching your filters. Try adjusting your search or filter criteria.",
+    "resetAllFilters": "Reset All Filters"
+  },
+  "productDetails": {
+    "quantity": "Quantity",
+    "power": "Power",
+    "type": "Type",
+    "efficiency": "Efficiency",
+    "warranty": "Warranty",
+    "requestOrder": "Request Order",
+    "backToProducts": "Back to Products"
+  },
+
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "description": "Welcome to Safe Energy Solutions. We are committed to protecting the privacy and security of our customers, website visitors, and business partners. This Privacy Policy explains how we collect, use, store, and protect your personal information when you interact with our website, products, and services related to solar energy systems, batteries, and renewable energy solutions. By using our website or submitting your information, you agree to the practices described in this Privacy Policy."
+      },
+      "informationCollection": {
+        "title": "Information We Collect",
+        "items": [
+          "Full name",
+          "Phone number",
+          "Email address",
+          "Company or organization name (if applicable)",
+          "Physical address or installation location",
+          "Product inquiries and service requests",
+          "Information submitted through contact forms",
+          "Technical information such as browser type, device information, and website usage data"
+        ]
+      },
+      "informationUsage": {
+        "title": "How We Use Your Information",
+        "items": [
+          "Respond to inquiries and provide customer support",
+          "Prepare quotations and product recommendations",
+          "Process orders and service requests",
+          "Schedule site visits and installations",
+          "Improve our products, services, and website experience",
+          "Send important updates regarding products, warranties, or services",
+          "Comply with legal and regulatory obligations"
+        ]
+      },
+      "informationSharing": {
+        "title": "Information Sharing",
+        "description": "We do not sell, rent, or trade your personal information to third parties.",
+        "items": [
+          "Authorized employees and service providers",
+          "Installation and technical support teams",
+          "Business partners involved in delivering requested services",
+          "Government authorities when required by law"
+        ]
+      },
+      "security": {
+        "title": "Data Security",
+        "description": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, misuse, or disclosure. However, no online transmission or storage system can be guaranteed to be completely secure."
+      },
+      "retention": {
+        "title": "Data Retention",
+        "description": "We retain personal information only for as long as necessary to provide services, fulfill legal obligations, resolve disputes, and maintain business records."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "items": [
+          "Access your personal information",
+          "Correct inaccurate information",
+          "Update your contact details",
+          "Request deletion of your personal information where legally permitted"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies and Website Analytics",
+        "description": "Our website may use cookies and analytics tools to improve performance and understand visitor behavior. You may disable cookies through your browser settings."
+      },
+      "changes": {
+        "title": "Changes to This Policy",
+        "description": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions regarding this Privacy Policy or your personal information, please contact us through our official communication channels."
+      }
+    }
+  }
+
+}

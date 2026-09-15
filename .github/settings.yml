@@ -1,0 +1,72 @@
+# GitHub Repository Settings
+# This file can be used with the GitHub Settings app (probot/settings)
+# If you don't have the Settings app installed, follow the manual instructions in BRANCH_PROTECTION.md
+
+repository:
+# Repository settings can be configured here
+# Note: Branch protection rules require the Settings app or manual configuration
+
+branches:
+  # Branch protection rules for 'develop' branch
+  - name: develop
+    protection:
+      # Require pull request reviews before merging
+      required_pull_request_reviews:
+        # Require at least 1 approval
+        required_approving_review_count: 1
+        # Dismiss stale reviews when new commits are pushed
+        dismiss_stale_reviews: true
+        # Require review from code owners (if CODEOWNERS file exists)
+        require_code_owner_reviews: false
+        # Restrict who can dismiss pull request reviews
+        # dismissal_restrictions: {} # Uncomment and configure if needed
+
+      # Require status checks to pass before merging
+      required_status_checks:
+        # Require branches to be up to date before merging
+        strict: true
+        # List of required status checks
+        # Note: Update these to match your actual CI job names
+        contexts:
+          - Build with 22.x
+          - Build with 24.x
+          - Run static checks
+
+      # Enforce restrictions
+      enforce_admins: false # Set to true to enforce rules for admins too
+
+      # Restrict who can push to this branch
+      # restrictions: null  # null means no restrictions (anyone can push)
+
+      # Prevent force pushes
+      allow_force_pushes: false
+
+      # Prevent deletion of this branch
+      allow_deletions: false
+
+      # Require linear history (no merge commits)
+      required_linear_history: false
+
+      # Allow merge commits, squash merging, and rebase merging
+      # (GitHub UI settings - not configurable here, but documented)
+      # - Allow merge commits: true
+      # - Allow squash merging: true
+      # - Allow rebase merging: true
+
+  # Branch protection rules for 'main' branch (if it exists)
+  - name: main
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 2 # More strict for main branch
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true # Require code owner approval for main
+      required_status_checks:
+        strict: true
+        contexts:
+          - Build with 22.x
+          - Build with 24.x
+          - Run static checks
+      enforce_admins: true # Enforce for admins on main branch
+      allow_force_pushes: false
+      allow_deletions: false
+      required_linear_history: false
